@@ -1,9 +1,9 @@
 import 'package:flutter/material.dart';
 
 class ListIngredientPage extends StatefulWidget {
-  final DateTime selectedTime;
+  final DateTime selectedDate;
 
-  const ListIngredientPage({Key key, this.selectedTime}) : super(key: key);
+  const ListIngredientPage({Key key, this.selectedDate}) : super(key: key);
 
   @override
   _ListIngredientPageState createState() => _ListIngredientPageState();
