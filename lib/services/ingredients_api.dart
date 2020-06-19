@@ -1,6 +1,6 @@
-import 'package:RecipeTask/data/remote/ingredient_model.dart';
-import 'package:RecipeTask/data/remote/recipe_model.dart';
 import 'package:dio/dio.dart';
+import 'package:tech_task/data/remote/ingredient_model.dart';
+import 'package:tech_task/data/remote/recipe_model.dart';
 
 class IngredientsApi {
   final String url = "https://a61d556b-57ca-423f-8706-2e8dec75d714.mock.pstmn.io";
